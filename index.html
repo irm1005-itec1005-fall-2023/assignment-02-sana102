@@ -3,7 +3,7 @@
 
 <head>
   <!-- Set the page title -->
-  <title>Assignment 02</title>
+  <title> Top Sanrio Characters</title>
 
   <!-- Set the charset we're using to UTF-8 -->
   <meta charset="utf-8" />
@@ -20,14 +20,107 @@
   <!-- This is where all of our awesome CSS code goes -->
   <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
-  <!--
+<div class="header">
+  <h2 id="home">Top 2 Sanrio Characters</h2>
+  <img src="./sanrio.png" alt="sanrio characters">
+</div>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 id="content">Hello Kitty ♡ </h2>
+      <div class="hello kitty"> <img src="./hellokitty.jpg" alt="picture of hello kitty"> </div>
+      <p>In the outskirts of London, Hello Kitty was born. Her dearest buddy Mimmy, who is her twin sister, also lives with her parents. She enjoys making new acquaintances and baking cookies. It's true what she often says: "You can never have too many friends!"</p>
+    </div>
+    <div class="card">
+      <h2>Cinnamonroll ♡</h2>
+      <div class="cinnamonroll"> <img src="./cina.jpg" alt="picture of cinnamonroll"> </div>
+      <p>The official mascot of Cafe Cinnamon is Cinnamoroll. He occasionally naps on customers' laps and is shy but very nice. By flapping his enormous ears, he can fly through the air.</p>
+    </div>
+    <div class="card">
+      <section> 
+        <h3 id="Contact">Feedback Form (✿◠‿◠) ♡</h3>
+        <form>
+          <fieldset>
+            <legend>Personal info:</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required/>
 
-  -->
-  <h1>Assignment 02</h1>
-</body>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+          </fieldset>
+          </form>
+      </section>  
+      
+      <fieldset>
+        <legend>Feedback:</legend>
 
+        <label for="topic">Which Sanrio character do you like?:</label>
+        <input type="text" id="topic" name="topic" required />
+      </fieldset>
+        <fieldset>
+          <legend>Submit:</legend>
+
+          <input type="checkbox" id="consent" name="consent" required />
+          <label for="consent">I consent to the use of my feedback.</label>
+
+          <input type="submit" value="Submit Feedback" />
+      </fieldset>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="nav">
+      <nav>
+        <h3>nav bar</h3>
+        <ul>
+          <li><a href="#Home" > Home</a></li>
+          <li><a href="#Content" > Content</a></li>
+          <li><a href="#Contact" > Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sidebar">
+      <h3 class="title">Friends</h3>
+      <div class="fakeimg"> <img src="./keh8gbfthgv91.jpg" alt="frog">
+      <h2> Keroppi </h2></div><br>
+      <div class="fakeimg"> <img src="./melody.jpg" alt="melody"> <h2> My Melody</h2></div><br>
+      <div class="fakeimg"> <img src="./pompom.jpg" alt="pompom"> <h2> Pompompurin</h2></div><br>
+    </div>
+    <div class="card">
+      <h3>Have a diff opinon? </h3>
+      <p>Use our forum to submit your fav character!..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <footer>
+      
+    <h2> Site Footer ˚ ༘♡ ⋆｡˚</h2>
+
+    <nav>
+      <h3>nav bar</h3>
+      <ul>
+        <li><a href="#Home" > Home</a></li>
+        <li><a href="#Content" > Content</a></li>
+        <li><a href="#Contact" > Contact</a></li>
+      </ul>
+    </nav>
+
+    <img
+    src="https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png" alt="footer of sanrio characters" >
+    <p>&copy; 2023</p>
+  </footer>
+</div>
+</body> 
 </html>
+<!--- 
+  Citations: 
+  
+    -->

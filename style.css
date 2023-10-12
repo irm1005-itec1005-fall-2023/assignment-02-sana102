@@ -1,19 +1,80 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family:cursive;
+  padding: 20px;
+  background: #f1f1f1;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
   text-align: center;
-  color: #023047;
+  background: #ffffff;
+  color:rgb(241, 150, 165);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  color:rgb(238, 139, 156)
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  color: #f496a6;
+}
+a {
+  color: rgb(240, 132, 150);
+}
+
+/* Fake image */
+.fakeimg {
+  border: 2px solid #f496a6;
+  background-color: #ffffff;
+  object-fit: contain;
+  width:90%;
+  padding:2px;
+  color: #f094a3;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.nav {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 1.5rem;;
+}
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.5rem;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #ffffff;
+  margin-top: 20px;
+  color:#f0a9b1
 }
