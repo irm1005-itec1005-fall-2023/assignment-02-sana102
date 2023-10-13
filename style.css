@@ -10,7 +10,7 @@ body {
   font-size: 40px;
   text-align: center;
   background: #ffffff;
-  color:rgb(241, 150, 165);
+  color:#f196a5;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -29,7 +29,7 @@ body {
   color: #f496a6;
 }
 a {
-  color: rgb(240, 132, 150);
+  color: #f08496;
 }
 
 /* Fake image */
@@ -44,13 +44,13 @@ a {
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
+   background-color: #ffffff;
    padding: 20px;
    margin-top: 20px;
 }
 
 .nav {
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
 }
