@@ -52,21 +52,21 @@ main .card {
   margin-top: 20px;
 }
 
-.card button {
+.card .btn {
   font-family: cursive;
   border: none;
   padding: 12px;
   color: white;
   background-color: #eba8c0;
   text-align:center;
-  margin-left: 2.5rem;
+  margin-left: 5rem;
   cursor: pointer;
   width: 70%;
   font-size: 20px;
   border-radius: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
-.card button:hover {
+.card .btn:hover {
   opacity: 0.7;
 }
 
