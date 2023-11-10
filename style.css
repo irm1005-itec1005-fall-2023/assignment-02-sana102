@@ -1,19 +1,124 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: cursive;
+  padding: 20px;
+  background-image: linear-gradient(#fcfadf, #eab9d5);
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+
+.header {
+  padding: 30px;
+  font-size: 40px;
   text-align: center;
-  color: #023047;
+  background: #ffffff;
+  color: #f196a5;
+}
+
+.link a {
+  color:white;
+  text-decoration: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav a {
+  color: #f196a5;
+}
+
+.footer a {
+  color: #f196a5;
+}
+
+.leftcolumn {
+  float: left;
+  width: 70%;
+  color: rgb(238, 139, 156);
+}
+
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  color: #f496a6;
+}
+
+
+main .card {
+  background-color: #ffffff;
+  padding: 20px; 
+  margin-top: 20px;
+}
+
+.card .btn {
+  font-family: cursive;
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #eba8c0;
+  text-align:center;
+  margin-left: 5rem;
+  cursor: pointer;
+  width: 70%;
+  font-size: 20px;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+.card .btn:hover {
+  opacity: 0.7;
+}
+
+.link {
+  color:wheat;
+}
+.nav {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.button a {
+  color:white;
+}
+.nav h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #fff6c799;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #fff6c799;
+}
+
+
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.5rem;
+}
+
+
+/* Adjust the fakeimg class */
+.fakeimg {
+  border: 1px solid #f496a6;
+  background-color: #ffffff;
+  font-size: 0.8rem;;
+  padding: 2px;
+  color: #f094a3;
+  text-align: center;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #ffffff;
+  margin-top: 20px;
+  color: #f0a9b1;
 }

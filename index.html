@@ -3,31 +3,134 @@
 
 <head>
   <!-- Set the page title -->
-  <title>Assignment 02</title>
+  <title>Top Sanrio Characters</title>
 
   <!-- Set the charset we're using to UTF-8 -->
   <meta charset="utf-8" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
+  <!-- Set the screen's default zoom / scale to 1 -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Specifies the document mode for Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
+  <!-- Use a CSS Reset file to standardize browser default CSS -->
   <link rel="stylesheet" href="./reset.css" />
 
-  <!-- This is where all of our awesome CSS code goes -->
+  <!-- Include the main CSS file -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <!--
+  <div class="header">
+    <h2 id="home">Best Sanrio Characters</h2>
+    <img src="./sanrio.png" alt="Sanrio characters" width="500">
+  </div>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+  <main>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2 id="content">Hello Kitty ♡</h2>
+          <div class="hello-kitty"> <img src="./hellokittyy.png" alt="Picture of Hello Kitty" width="870"> </div>
+          <p>In the outskirts of London, Hello Kitty was born. Her dearest buddy Mimmy, who is her twin sister, also lives with her parents. She enjoys making new acquaintances and baking cookies. It's true what she often says: "You can never have too many friends!"</p>
+        </div>
+        <div class="card">
+          <h2>Cinnamonroll ♡</h2>
+          <div class="cinnamon-roll"> <img src="./cinnamonrollll.png" alt="Picture of Cinnamonroll" width="870"> </div>
+          <p>The official mascot of Cafe Cinnamon is Cinnamoroll. He occasionally naps on customers' laps and is shy but very nice. By flapping his enormous ears, he can fly through the air.</p>
+        </div>
+        <div class="card">
+          <img src="https://cdn.shopify.com/s/files/1/1403/8979/files/Sanrio_ff8e7242-67cb-4eb0-90cf-2cb6dcb0cf94_2048x2048.png?v=1667711446" width="870" alt="Sanrio">
+        </div>
+        <div class="card">
+          <h3 id="contact">Feedback Form (✿◠‿◠) ♡</h3>
+          <form>
+            <fieldset>
+              <legend>Personal info:</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" autocomplete="name" required/>
 
-  -->
-  <h1>Assignment 02</h1>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" autocomplete="email" />
+            </fieldset>
+
+            <fieldset>
+              <legend>Feedback:</legend>
+              <label for="topic">Which Sanrio character do you like?:</label>
+              <input type="text" id="topic" name="topic" required />
+            </fieldset>
+
+            <fieldset>
+              <legend>Submit:</legend>
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent">I consent to the use of my feedback.</label>
+              <input type="submit" value="Submit Feedback" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="nav">
+          <nav>
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#content">Content</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="sidebar">
+          <h3 class="title">Friends</h3>
+          <div class="fakeimg"> <img src="./keh8gbfthgv91.jpg" alt="Frog" width="280"><h2>Keroppi</h2></div><br>
+          <div class="fakeimg"> <img src="./melody.jpg" alt="Melody" width="280"> <h2>My Melody</h2></div><br>
+          <div class="fakeimg"> <img src="./pompom.jpg" alt="Pompom" width="280"> <h2>Pompompurin</h2></div><br>
+        </div>
+
+        <div class="card">
+          <h3>（っ＾▿＾） Interested?</h3>
+          <p>Click on the button to see the world of Sanrio characters!</p>
+          <p class="link"><a class="btn" href="https://www.sanrio.com/">Let me see!</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+    <footer>
+      <h2>Site Footer ˚ ༘♡ ⋆｡˚</h2>
+
+      <nav>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img src="https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png" alt="Footer of Sanrio characters">
+      <p>&copy; 2023</p>
+    </footer>
+  </div>
 </body>
 
 </html>
+
+<!--- 
+  Citations: 
+https://target.scene7.com/is/image/Target/GUEST_ad51f6c2-49a2-4f5f-876b-70ffa1b3bf71?wid=668&qlt=80&fmt=png
+https://images6.fanpop.com/image/photos/44500000/Cinnamoroll-banner-cinnamoroll-44503630-600-200.png
+https://i.pinimg.com/originals/d2/e4/cb/d2e4cbf0a9733dffb8a8fcf75a405035.gif
+https://i.redd.it/keh8gbfthgv91.jpg
+https://i.pinimg.com/564x/b3/39/49/b3394928d8a1ff5ce4aa89b6b77bf622.jpg
+https://i.pinimg.com/564x/82/c4/e5/82c4e516fddf130c01e94def53f65660.jpg
+https://www.sanrio.com/collections/cinnamoroll
+https://www.sanrio.com/collections/hello-kitty
+https://i.pinimg.com/564x/fc/d7/2d/fcd72d532adb8a5707065f5e9ad70e5d.jpg
+https://www.w3schools.com/howto/howto_css_blog_layout.asp
+https://i.pinimg.com/736x/81/8e/c3/818ec348cac14a4383c324e79c4e747f.jpg
+  -->
